@@ -1,0 +1,96 @@
+ <!-- froms -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <center>
+     <h1>HTML Forms</h1>
+    </center>
+     <form>
+         <fieldset>
+             <legend>Personal Details*</legend>
+         <label>First Name*</label>
+         <input type="text" name="First Name"> 
+         <br>
+         <label>Last Name*</label>
+         <input type="text" name="Last Name">
+         <br>
+           
+         <label>E-mail* </label>
+         <input type="email" name="email" >
+         <br>
+         <label >Password*</label>
+           <input type="password" name="password" readonly>
+          <br>
+          <label > Conform Password*</label>
+          <input type="Conform" name="Conform" readonly><br>
+         <label>Mobile*</label>
+         <input type="text" name="Mobile">
+         <br>
+         <label>Adr No*</label>
+         <input type="text" name="Adr No">
+         <br>
+     </fieldset>
+     <fieldset>
+         <legend>Gender*</legend>
+         <input type="radio" name="gender" id="male">
+         <label for="male">Male</label>
+         <input type="radio" name="gender" id="female">
+         <label for="female">Female</label>
+     </fieldset>
+     <fieldset>
+         <legend>SkillS*</legend>
+         <fieldset>
+            <legend>TECHNICAL Skills</legend>
+            <p> <u><b>Programming Languages</b></u></p> 
+            <input type="checkbox" id="c++">
+            <label for="c++">C++</label>
+         <input type="checkbox" id="Java">
+         <label for="Java">Java</label>
+         <input type="checkbox" id="Python">
+         <label for="Python">Python</label> <br>
+         <p><u><b>Front-End Technologies</b></u></p>
+         <input type="checkbox" id="HTML">
+         <Label for="HTML">HTML </Label>
+         <input type="checkbox" id="CSS">
+         <Label for="CSS">CSS</Label>
+         <input type="checkbox" id="JS">
+         <Label for="JS">JS </Label> <br>
+         <p><u><b>Database</b></u></p>
+         <input type="checkbox" id="My SQL">
+         <Label for="My SQL">My SQL </Label>
+     </fieldset>
+     <fieldset>
+         <legend>SOFT SKILLS</legend>
+         <input type="checkbox" id="Good Communicator">
+         <Label for="Good Communicator">Good Communicator </Label>
+         <input type="checkbox" id="Self-Motivated">
+         <Label for="Self-Motivated">Self-Motivated</Label>
+         <input type="checkbox" id="Team Player">
+         <Label for="Team Player">Team Player</Label>
+     </fieldset>
+     <fieldset>
+         <legend>Games</legend>
+         <label>Choose a Games:</label>
+         <select name="Games">
+             <option>--select--</option>
+             <option>Volleyball</option>
+             <option>Football</option>
+             <option>Basketball</option>
+             <option>Cricket</option>
+             <option> Golf</option>
+             <option>Tennis</option>
+             <option> Swimming</option>
+             <option>Baseball</option>
+         </select>
+     </fieldset>
+     <textarea name="feedback" row="15" cols="50" placeholder="Enter your Feedback" style="resize: none;"></textarea><br>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+     </form>
+ </body>
+ </html>
